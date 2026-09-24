@@ -50,20 +50,21 @@ function YoutubeIcon({ size = 14, className = "" }: { size?: number; className?:
 }
 
 const services = [
-  { name: "Diagnostic Center", href: "#services" },
-  { name: "Cardiology", href: "#services" },
-  { name: "General Surgery", href: "#services" },
-  { name: "Dental Surgery", href: "#services" },
-  { name: "Radiology", href: "#services" },
-  { name: "Obs & Gynaecology", href: "#services" },
-  { name: "ENT", href: "#services" },
-  { name: "Medicine", href: "/#services" },
+  { name: "Diagnostic Center", href: "/services" },
+  { name: "Cardiology", href: "/services" },
+  { name: "General Surgery", href: "/services" },
+  { name: "Dental Surgery", href: "/services" },
+  { name: "Radiology", href: "/services" },
+  { name: "Obs & Gynaecology", href: "/services" },
+  { name: "ENT", href: "/services" },
+  { name: "Medicine", href: "/services" },
+  { name: "View All Services →", href: "/services" },
 ];
 
 const navLinks = [
   { name: "Home", href: "/#home" },
   { name: "About", href: "/#about" },
-  { name: "Services", href: "/#services", hasDropdown: true },
+  { name: "Services", href: "/services", hasDropdown: true },
   { name: "Doctors", href: "/doctors" },
   { name: "Gallery", href: "/#gallery" },
   { name: "Contact", href: "/#contact" },
