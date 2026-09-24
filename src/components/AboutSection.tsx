@@ -90,20 +90,7 @@ export default function AboutSection() {
                 className="h-auto w-full object-cover"
               />
             </div>
-            {/* Floating Badge */}
-            <div className="absolute -bottom-6 -right-4 rounded-2xl border border-neutral-200 bg-white p-4 shadow-modal md:-right-8 md:p-6">
-              <div className="flex items-center gap-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-tertiary/10">
-                  <Award className="text-tertiary" size={24} />
-                </div>
-                <div>
-                  <p className="text-2xl font-extrabold text-neutral">20+</p>
-                  <p className="text-sm font-medium text-neutral-500">
-                    Years of Service
-                  </p>
-                </div>
-              </div>
-            </div>
+
           </div>
 
           {/* Text Side */}
